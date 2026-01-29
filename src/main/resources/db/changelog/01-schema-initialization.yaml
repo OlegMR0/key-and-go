@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: schema-initialization
+      author: Oleg
+      changes:
+        - sql:
+            sql: CREATE DATABASE key_and_go;
